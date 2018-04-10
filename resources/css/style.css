@@ -1,0 +1,58 @@
+
+/* Setup & variables */
+
+:root {
+--bg: rgba(193, 148, 106, 0.1);
+--content: #1C0E00;
+--action: #2B833A;
+}
+
+html {
+	font-size: 16px;
+	background-color: var(--bg);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* Navigation */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+header h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	color: var(--content);
+	margin-left: 32px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+	color: var(--action);
+	margin-right: 32px;
+
+}
+
+nav ul li:last-child {
+	font-weight: bold;
+}
+
+/* Content */
+
+
+
+/* Main Message */
+
+
+
+
+
+/* Image */
+
+
+
+/* Attribution */
