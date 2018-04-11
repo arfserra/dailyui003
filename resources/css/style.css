@@ -72,11 +72,11 @@ body {
 
 .main-message {
 	height: 100%;
-	width: 50%;
+	width: 45%;
 	margin-left: 2rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 h2 {
@@ -92,12 +92,23 @@ h2 {
 	line-height: 1.5rem;
 }
 
-button {
-	color: var(--action);
-	font-weight: bold;
+/* Button */
 
+button {
+	width: 20rem;
+	padding: 24px;
+	border-radius: 100px;
+	color: var(--action);
+	font-size: 1.5rem;
+	font-weight: bold;
+	background: transparent;
+	border: 3px solid var(--action);
+	box-shadow: 0;
 }
 
+button:focus {
+	outline: 0;
+}
 
 /* Image */
 
